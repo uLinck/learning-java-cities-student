@@ -11,10 +11,10 @@ public class TesteFun4Study {
 
         for (int i = 0; i < 2; i++) {
             System.out.println("Digite os dados da cidade " + (i + 1) + ":");
-            System.out.print("C骴igo: ");
+            System.out.print("C贸digo: ");
             var codigo = scan.nextInt();
             scan.nextLine();
-            System.out.print("Descri玢o: ");
+            System.out.print("Descri莽茫o: ");
             var descricao = scan.nextLine();
             System.out.print("UF: ");
             var uf = scan.nextLine();
@@ -24,7 +24,7 @@ public class TesteFun4Study {
 
         for (int i = 0; i < 4; i++) {
             System.out.println("Digite os dados do estudante " + (i + 1) + "");
-            System.out.print("C骴igo: ");
+            System.out.print("C贸digo: ");
             var codigo = scan.nextInt();
             scan.nextLine();
             System.out.print("Nome: ");
@@ -35,7 +35,7 @@ public class TesteFun4Study {
             var email = scan.nextLine();
             System.out.print("Senha: ");
             var senha = scan.nextLine();
-            System.out.print("Digite o c骴igo da cidade desejada: ");
+            System.out.print("Digite o c贸digo da cidade desejada: ");
             var codigoCidade = scan.nextInt();
 
             for (var cidade : cidades) {
@@ -68,7 +68,7 @@ public class TesteFun4Study {
                     }
                     break;
                 case 3:
-                    System.out.print("\nDigite o c骴igo do estudante: ");
+                    System.out.print("\nDigite o c贸digo do estudante: ");
                     var codigoEstudante = scan.nextInt();
                     scan.nextLine();
 
